@@ -6,8 +6,8 @@ gem "rails", "~> 7.2.2"
 gem "sprockets-rails"
 # Use sqlite3 as the database for Active Record
 # moficado nmori
-gem "sqlite3", ">= 1.4", group: :develipment
-gem 'pg', group: :production
+gem "sqlite3", ">= 1.4" #, group: :develipment
+#gem 'pg', group: :production
 # ---------------------
 
 # Use the Puma web server [https://github.com/puma/puma]
